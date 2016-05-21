@@ -1,0 +1,132 @@
+html {
+  font-size: 100px;
+}
+body {
+  font-family: "microsoft yahei";
+  background: #ebebeb;
+}
+.fl {
+  float: left;
+}
+.image-wrap {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.image-wrap img {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+.gg-body {
+  background: #ebebeb;
+  padding-bottom: 0.5rem;
+  padding-top: 0.15rem;
+}
+.gg-body .time {
+  width: 0.7rem;
+  height: 0.225rem;
+  line-height: 0.225rem;
+  color: white;
+  background: #cfcfcf;
+  padding: 0 0.05rem;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 0.12rem;
+  margin: 0 auto 0.2rem auto;
+}
+.gg-body .list {
+  padding: 0 0.1rem;
+  margin-top: 0.1rem;
+}
+.gg-body .list .list-item {
+  margin-bottom: 0.2rem;
+}
+.gg-body .list .list-item .user-image {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 4px;
+  background: url(../images/shake/dd_03.jpg) no-repeat center center;
+  background-size: 100% 100% !important;
+}
+.gg-body .list .list-item .user-message {
+  color: black;
+  font-size: 0.15rem;
+  line-height: 0.17rem;
+  padding: 0.125rem 0.08rem;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  position: relative;
+  max-width: 1.4rem;
+}
+.gg-body .list .list-item .user-message .sanjiao {
+  position: absolute;
+  width: 0.075rem;
+  height: 0.11rem;
+  top: 50%;
+  margin-top: -0.055rem;
+}
+.gg-body .list .other .user-image {
+  margin-right: 0.1rem;
+}
+.gg-body .list .other .user-message {
+  background: white;
+}
+.gg-body .list .other .user-message .sanjiao {
+  background: url(../images/user/s1_03.png) no-repeat center;
+  background-size: 0.075rem 0.11rem;
+  left: -0.07rem;
+}
+.gg-body .list .self .user-image {
+  margin-left: 0.1rem;
+}
+.gg-body .list .self .user-message {
+  background: #a0e75a;
+}
+.gg-body .list .self .user-message .sanjiao {
+  background: url(../images/user/s2_03.png) no-repeat center;
+  background-size: 0.075rem 0.11rem;
+  right: -0.07rem;
+}
+.gg-body .send-box {
+  border-top: 1px solid #c2c2c2;
+  height: 0.4rem;
+  background: #f4f4f6;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 0.085rem 0.1rem 0 0.1rem;
+}
+.gg-body .send-box .txt {
+  width: 2.39rem;
+  padding-left: 0.1rem;
+  line-height: 0.35rem;
+  height: 0.34rem;
+  border: 1px solid #c2c2c2;
+  border-radius: 8px;
+  background: white;
+  font-size: 0.14rem;
+}
+.gg-body .send-box .txt input {
+  border: 0;
+  outline: 0;
+}
+.gg-body .send-box .txt input:focus {
+  outline: 0;
+}
+.gg-body .send-box .bt {
+  background: #a0e75a;
+  width: 0.44rem;
+  height: 0.35rem;
+  line-height: 0.35rem;
+  text-align: center;
+  font-size: 0.14rem;
+  color: white;
+  border-radius: 8px;
+  margin-left: 0.075rem;
+}

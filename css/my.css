@@ -1,0 +1,48 @@
+.my .myhead {
+  position: relative;
+  color: #ffffff;
+}
+.my .myhead img.bg {
+  width: 100%;
+}
+.my .myhead img.head {
+  width: 0.71rem;
+  height: 0.71rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.32rem;
+  left: 1.22rem;
+}
+.my .myhead .nickname {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 1.22rem;
+  font-size: 0.15rem;
+}
+.my dl {
+  padding-bottom: 0.7rem;
+}
+.my dl dt {
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #dddddd;
+  position: relative;
+  background: #ffffff;
+}
+.my dl dt img {
+  height: 0.3rem;
+  margin-top: 0.26rem;
+  margin-bottom: 0.17rem;
+}
+.my dl dt.line:before {
+  content: '';
+  position: absolute;
+  width: 0.01rem;
+  background: #dddddd;
+  height: 100%;
+  right: 0%;
+  top: 0%;
+}

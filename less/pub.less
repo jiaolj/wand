@@ -1,0 +1,131 @@
+.b(@d:0){bottom:@d}.bg(@d:#fff){background:@d}.br(@d:50%){border-radius:@d}.bsb(@d:border-box){box-sizing:@d}
+.bd(@c:#e9e9e9,@d:1px,@t:solid){border: @d @t @c}.bdn(@d:none){border:none}.bsz(){box-sizing:border-box}
+.bdt(@c:#e9e9e9,@d:1px,@t:solid){border-top: @d @t @c}
+.bdr(@c:#e9e9e9,@d:1px,@t:solid){border-right: @d @t @c}
+.bdb(@c:#e9e9e9,@d:1px,@t:solid){border-bottom: @d @t @c}
+.bdl(@c:#e9e9e9,@d:1px,@t:solid){border-left: @d @t @c}
+.bol(@d){.sqa(@d);.br}
+.c(@d:#ccc){color:@d}.csr(@d:pointer){cursor:@d}.cb(@d:both){clear:@d}
+.dsn(@d:none){display:@d}.dsb(@d:block){display:@d}.dsi(@d:inline){display:@d}.dsib(@d:inline-block){display:@d}
+.ffmy(@d:'Microsoft YaHei'){font-family:@d}.fs(@d:12px){font-size:@d}.fw(@d:900){font-weight:@d}
+.flt(@d:left){float:@d}.frt(@d:right){float:@d}
+.h(@d:100%){height:@d}
+.l(@d:0){left:@d}.ls(@d:0.1em){letter-spacing:@d}.lh(@d:26px){line-height:@d}
+.miw(@d:1000px){min-width:@d}.mxw(@d:1000px){max-width:@d}
+.mg(@d:0){margin:@d}
+.mgt(@d:0){margin-top:@d}
+.mgr(@d:0){margin-right:@d}
+.mgb(@d:0){margin-bottom:@d}
+.mgl(@d:0){margin-left:@d}
+.ofh(@d:hidden){overflow:@d}.ofxh(@d:hidden){overflow-x:@d}.ofa(@d:auto){overflow:@d}.otl(@d:none){outline:@d}
+.psr(@d:relative){position:@d}.psa(@d:absolute){position:@d}.psf(@d:fixed){position:@d}
+.pd(@d:0){padding:@d}
+.pdt(@d:0){padding-top:@d}
+.pdr(@d:0){padding-right:@d}
+.pdb(@d:0){padding-bottom:@d}
+.pdl(@d:0){padding-left:@d}
+.tct(@d:center){text-align:@d}
+.r(@d:0%){right:@d}
+.sqa(@d){.w(@d);.h(@d)}
+.t(@d:0%){top:@d}.tdn(@d:none){text-decoration:@d}.ti(@d:1em){text-indent:@d}
+.val(@d:middle){vertical-align:@d}
+.w(@d:100%){width:@d}
+.zi(@d:1){z-index:@d}
+
+.bs(@c:#ccc){
+	box-shadow: 0px 2px 12px #ccc
+}
+.round(@d:50%){
+	border-radius:@d;
+	.psr;.zi;
+	behavior:url(/static/js/pie.htc)
+}
+.rgba(@d:10,@c:#000){
+  -moz-opacity: @d/100;
+  -khtml-opacity: @d/100;
+  opacity: @d/100;
+  filter: alpha(opacity=@d);
+  background: @c;
+}
+
+.bgimg(@f:top,@r:0,@g:0,@b:0,@s:0.5,@t:0.1){
+	background-image: linear-gradient(to @f, rgba(@r,@g,@b,@s), rgba(@r,@g,@b,@s+@t), rgba(@r,@g,@b,@s+@t*2), rgba(@r,@g,@b,@s+@t*3));
+}
+.trgt(@c:#333,@a:6px,@b:4px){
+	border-top: @a solid @c;
+	border-left: @b solid transparent;
+	border-right: @b solid transparent;
+}
+.trgl(@c:#333,@a:6px,@b:4px){
+	border-left: @a solid @c;
+	border-top: @b solid transparent;
+	border-bottom: @b solid transparent;
+}
+.trgr(@c:#333,@a:6px,@b:4px){
+	border-right: @a solid @c;
+	border-top: @b solid transparent;
+	border-bottom: @b solid transparent;
+}
+.tsf(@d:30deg){
+	transform:rotate(@d);
+	-ms-transform:rotate(@d); 	/* IE 9 */
+	-moz-transform:rotate(@d); 	/* Firefox */
+	-webkit-transform:rotate(@d); /* Safari 和 Chrome */
+	-o-transform:rotate(@d); 	/* Opera */
+}
+.txtl(){
+text-overflow : ellipsis; 
+white-space : nowrap; 
+overflow : hidden; 
+}
+
+@scale:200;
+.brr(@d:5rem){.br(@d/@scale)}
+.brr(@a,@b,@c,@d){.br(@a/@scale @b/@scale @c/@scale @d/@scale)}
+.bd-r(@c,@d,@t:solid){border: @d/@scale @t @c}
+.bdtr(@c,@d,@t:solid){border-top: @d/@scale @t @c}
+.bdrr(@c,@d,@t:solid){border-right: @d/@scale @t @c}
+.bdbr(@c,@d,@t:solid){border-bottom: @d/@scale @t @c}
+.bdlr(@c,@d,@t:solid){border-left: @d/@scale @t @c}
+.bolr(@d){.bol(@d/@scale)}
+.fsr(@d){.fs(@d/@scale)}
+.hr(@d){.h(@d/@scale)}
+.lhr(@d){.lh(@d/@scale)}
+.lr(@d){.l(@d/@scale)}
+.lsr(@d){.ls(@d/@scale)}
+.mg-r(@a){.mg(@a/@scale)}
+.mg-r(@a,@b){.mg(@a/@scale @b/@scale)}
+.mg-r(@a,@b,@c,@d){.mg(@a/@scale @b/@scale @c/@scale @d/@scale)}
+.mgtr(@d){.mgt(@d/@scale)}
+.mgrr(@d){.mgr(@d/@scale)}
+.mgbr(@d){.mgb(@d/@scale)}
+.mglr(@d){.mgl(@d/@scale)}
+.mxwr(@d){.mxw(@d/@scale)}
+.pd-r(@a){.pd(@a/@scale)}
+.pd-r(@a,@b){.pd(@a/@scale @b/@scale)}
+.pd-r(@a,@b,@c,@d){.pd(@a/@scale @b/@scale @c/@scale @d/@scale)}
+.pdtr(@d){.pdt(@d/@scale)}
+.pdrr(@d){.pdr(@d/@scale)}
+.pdbr(@d){.pdb(@d/@scale)}
+.pdlr(@d){.pdl(@d/@scale)}
+.rr(@d){.r(@d/@scale)}
+.sqar(@d){.sqa(@d/@scale)}
+.tt(@d){.t(@d/@scale)}
+.tr(@d){.t(@d/@scale)}
+.tir(@d){.ti(@d/@scale)}
+.wr(@d){.w(@d/@scale)}
+.trgtr(@c:#333,@a:6rem,@b:4rem){
+	border-top: @a/@scale solid @c;
+	border-left: @b/@scale solid transparent;
+	border-right: @b/@scale solid transparent;
+}
+.trglr(@c:#333,@a:6rem,@b:4rem){
+	border-left: @a/@scale solid @c;
+	border-top: @b/@scale solid transparent;
+	border-bottom: @b/@scale solid transparent;
+}
+.trgrr(@c:#333,@a:6rem,@b:4rem){
+	border-right: @a/@scale solid @c;
+	border-top: @b/@scale solid transparent;
+	border-bottom: @b/@scale solid transparent;
+}

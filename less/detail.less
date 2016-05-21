@@ -1,0 +1,239 @@
+@import 'pub.less';
+.detail {
+	@foth:98rem;
+	@color:#1D77C7;
+	@red:#DF4B24;
+	.cover-page {
+		.psf;.w;.h;.bg(#7F7F7F);.zi(9);.dsn;
+	}
+	.leavebox {
+		.psf;.lr(18rem);.tr(102rem);.wr(598rem);.fsr(24rem);.bg(#fff);.zi(10);.brr(8rem);.c(#333);
+		.tit {
+			.hr(70rem);.lhr(78rem);.tir(12rem);.fsr(26rem);
+		}
+		textarea {
+			.bg(#eee);.wr(594rem);.hr(210rem);.lhr(46rem);.ti;.bdn;
+		}
+		.admin {
+			a {
+				.dsib;.w(50%);.tct;.lhr(78rem);.bsz;.c(#333);
+				&.cancel {
+					.bdr(#eee);
+				}
+				&.submit {
+					.c(@color);
+				}
+			}
+		}
+	}
+	.send2 {
+		.psf;.l;.b;.wr(640rem);.fsr(24rem);.hr(@foth);.zi(9);.bg(#fff);
+		.leavebox2 {
+			.psa;.hr(60rem);.tr(-66rem);.wr(636rem);.dsn;.bd(#EB8401);
+			input {
+				.bdn;.psr;.tr(2rem);
+			}
+			.txt {
+				.w(80%);.hr(60rem);.psa;.l;.t;
+			}
+			.btn {
+				.w(20%);.hr(64rem);.psa;.r;.t;
+			}
+		}
+		p {
+			.dsib;.hr(@foth);
+			img {
+				.wr(30rem);
+			}
+			&.one {
+				.wr(100rem);.psa;.l;.tct;.lhr(32rem);.tr(10rem);
+			}
+			&.two {
+				.wr(540rem);.bg(@color);.psa;.r;.pdtr(32rem);
+				a {
+					.dsib;.c(#fff);.lhr(34rem);.pd-r(0,18rem);
+					&.line {
+						.bdr(#fff);
+					}
+				}
+			}
+		}
+	}
+	.pds(){
+		.pd-r(24rem);
+	}
+	.brs(){
+		.brr(8rem);
+	}
+	.head {
+		.tct;.bs;.bg(#fff);.fsr(33rem);.lhr(80rem);.psr;.fw(500);
+		img {
+			.hr(40rem);.psa;.lr(32rem);.tr(20rem);
+		}
+	}
+	section {
+		@gray:#666;
+		@cline:#F1F1F1;
+		.brs;.bg(#fff);.mg-r(22rem);.fsr(24rem);.bs;
+		.tit {
+			.bdb(@cline);.fsr(34rem);.pds;.c(#666);
+		}
+		.data {
+			.bdb(@cline);.pds;
+			img {
+				.psr;.t(-0.15em);
+			}
+		}
+		&.one {
+			.pic {
+				img {
+					.w;.bd(#eee);
+				}
+			}
+			.tit {
+				.fw;.lhr(56rem);
+				img {
+					.wr(119rem);
+				}
+			}
+			b {
+				.fw(600);.mgrr(10rem);
+			}
+			.imgtext {
+				.lhr(44rem);
+				img {
+					.wr(30rem);
+				}
+				&.mobile {
+					b {
+						.fsr(30rem);.c(@red);
+					}
+				}
+			}
+			.explain {
+				.c(@gray);.lhr(60rem);.psr;
+				span {
+					&.red {
+						.c(@red);
+					}
+				}
+			}
+			.card {
+				.tct;.pds;.lhr(68rem);.fw;
+				p {
+					.wr(256rem);
+					&.mid {
+						.mg-r(0,8rem);
+					}
+					.tct;.ofh;.bg(#CD2525);.brs;
+					a {
+						.c(#fff);
+						span {
+							.fsr(28rem);.psr;.t(0.1em);
+						}
+					}
+				}
+			}
+			.bdsharebuttonbox {
+				.dsn;.bdt(@cline);.pd(0 0.5em);
+				a {
+					.fs(11px);.ti;.pdl(5px);.mgr(2px);
+					.bg(url(../img/icons_1_16.png) no-repeat);
+					&.bds_more{background-position:0 0}
+					&.bds_qzone{background-position:0 -52px}
+					&.bds_tsina{background-position:0 -104px}
+					&.bds_sqq{background-position:0 -2652px}
+					&.bds_tqq{background-position:0 -260px}
+				}
+			}
+		}
+		&.level {
+			.tit {
+				.fw;.csr;.psr;
+				img {
+					.wr(32rem);.psr;.tr(-4rem);
+				}
+				.viewer {
+					.psa;.rr(20rem);.fsr(26rem);.tr(30rem);.fw(100);
+					span {.c(@red)}
+				}
+			}
+			dl.dtail {
+				dt{
+					.bdb(@cline);.pd-r(26rem,24rem);
+					.heads {
+						.br;
+						img {
+							.sqar(80rem);.br;
+						}
+					}
+					.txt {
+						.wr(436rem);
+						.up {
+							.fw;.fsr(25rem);.psr;.lhr(38rem);
+							span {
+								.psa;.r;.c(#888);.fsr(20rem);
+							}
+						}
+						.down {
+							.fw(500);.fsr(26rem);.lhr(32rem);
+						}
+					}
+				}
+			}
+			.views {
+				.c(#CD2525);.fsr(24rem);.lhr(62rem);.pd-r(0,24rem);.csr;
+			}
+		}
+		&.two {
+			.data {
+				.lhr(54rem);
+				.from {
+					.mgtr(20rem);.fw;
+					img {
+						.hr(30rem);.mgrr(4rem);
+						&.two {
+							.mglr(50rem);.mgrr(50rem);
+						}
+					}
+				}
+				.company {
+					.c(@gray);.fsr(22rem);
+				}
+			}
+			dl.card {
+				.c(#555);.pds;.fsr(20rem);.lhr(50rem);
+				dt {
+					.bdb(@cline);.lhr(50rem);
+				}
+				span {
+					.c(@red);
+				}
+			}
+		}
+		&.three {
+			.contents{
+				.pd-r(20rem);.fsr(30rem);
+				img {
+					.w;
+				}
+				p {
+					.lhr(56rem);
+				}
+			}
+		}
+		&.four {
+			.qrcode {
+				img {
+					.wr(442rem);.mg-r(38rem,78rem);
+				}
+				.text {
+					.fsr(24rem);.pdbr(40rem);.tct;.fw(500);
+				}
+			}
+		}
+	}
+	.foot-tserver {
+		.mgtr(40rem);.mgbr(120rem);
+	}
+}

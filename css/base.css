@@ -1,0 +1,857 @@
+.home dl.topMenu {
+  background: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+}
+.home dl.topMenu dt {
+  width: 50%;
+  float: left;
+  text-align: center;
+  position: relative;
+  margin-bottom: 0.15rem;
+  cursor: pointer;
+}
+.home dl.topMenu dt img {
+  margin-top: 0.08rem;
+  margin-bottom: 0.08rem;
+  height: 0.38rem;
+  position: relative;
+  left: -0.02rem;
+}
+.home dl.topMenu dt.line:before {
+  content: '';
+  position: absolute;
+  right: 0%;
+  top: 0.14rem;
+  height: 0.5rem;
+  width: 0.01rem;
+  background: #eeeeee;
+}
+.home .lines {
+  height: 0.16rem;
+  background: #f2f2f2;
+}
+.home dl.menus {
+  background: #ffffff;
+  line-height: 0.39rem;
+  border-top: 1px solid #dddddd;
+  color: #666666;
+}
+.home dl.menus dt {
+  width: 33%;
+  float: left;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.home dl.menus dt.line:before {
+  content: '';
+  position: absolute;
+  right: 0%;
+  top: 0.13rem;
+  height: 0.14rem;
+  width: 0.01rem;
+  background: #eeeeee;
+}
+.home dl.menus dt.active:after {
+  content: '';
+  position: absolute;
+  left: 0.23rem;
+  top: 0.38rem;
+  height: 0.01rem;
+  width: 0.6rem;
+  background: #1d77c7;
+}
+.my .myhead {
+  position: relative;
+  color: #ffffff;
+}
+.my .myhead img.bg {
+  width: 100%;
+}
+.my .myhead img.head {
+  width: 0.71rem;
+  height: 0.71rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.32rem;
+  left: 1.22rem;
+}
+.my .myhead .nickname {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 1.22rem;
+  font-size: 0.15rem;
+}
+.my dl {
+  padding-bottom: 0.7rem;
+}
+.my dl dt {
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #dddddd;
+  position: relative;
+  background: #ffffff;
+}
+.my dl dt img {
+  height: 0.3rem;
+  margin-top: 0.26rem;
+  margin-bottom: 0.17rem;
+}
+.my dl dt.line:before {
+  content: '';
+  position: absolute;
+  width: 0.01rem;
+  background: #dddddd;
+  height: 100%;
+  right: 0%;
+  top: 0%;
+}
+.detail .cover-page {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #7f7f7f;
+  z-index: 9;
+  display: none;
+}
+.detail .leavebox {
+  position: fixed;
+  left: 0.09rem;
+  top: 0.51rem;
+  width: 2.99rem;
+  font-size: 0.12rem;
+  background: #ffffff;
+  z-index: 10;
+  border-radius: 0.04rem;
+  color: #333333;
+}
+.detail .leavebox .tit {
+  height: 0.35rem;
+  line-height: 0.39rem;
+  text-indent: 0.06rem;
+  font-size: 0.13rem;
+}
+.detail .leavebox textarea {
+  background: #eeeeee;
+  width: 2.97rem;
+  height: 1.05rem;
+  line-height: 0.23rem;
+  text-indent: 1em;
+  border: none;
+}
+.detail .leavebox .admin a {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  line-height: 0.39rem;
+  box-sizing: border-box;
+  color: #333333;
+}
+.detail .leavebox .admin a.cancel {
+  border-right: 1px solid #eeeeee;
+}
+.detail .leavebox .admin a.submit {
+  color: #1d77c7;
+}
+.detail .send2 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 3.2rem;
+  font-size: 0.12rem;
+  height: 0.49rem;
+  z-index: 9;
+  background: #ffffff;
+}
+.detail .send2 .leavebox2 {
+  position: absolute;
+  height: 0.3rem;
+  top: -0.33rem;
+  width: 3.18rem;
+  display: none;
+  border: 1px solid #eb8401;
+}
+.detail .send2 .leavebox2 input {
+  border: none;
+  position: relative;
+  top: 0.01rem;
+}
+.detail .send2 .leavebox2 .txt {
+  width: 80%;
+  height: 0.3rem;
+  position: absolute;
+  left: 0;
+  top: 0%;
+}
+.detail .send2 .leavebox2 .btn {
+  width: 20%;
+  height: 0.32rem;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+.detail .send2 p {
+  display: inline-block;
+  height: 0.49rem;
+}
+.detail .send2 p img {
+  width: 0.15rem;
+}
+.detail .send2 p.one {
+  width: 0.5rem;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  line-height: 0.16rem;
+  top: 0.05rem;
+}
+.detail .send2 p.two {
+  width: 2.7rem;
+  background: #1d77c7;
+  position: absolute;
+  right: 0%;
+  padding-top: 0.16rem;
+}
+.detail .send2 p.two a {
+  display: inline-block;
+  color: #ffffff;
+  line-height: 0.17rem;
+  padding: 0 0.09rem;
+}
+.detail .send2 p.two a.line {
+  border-right: 1px solid #ffffff;
+}
+.detail .head {
+  text-align: center;
+  box-shadow: 0px 2px 12px #cccccc;
+  background: #ffffff;
+  font-size: 0.165rem;
+  line-height: 0.4rem;
+  position: relative;
+  font-weight: 500;
+}
+.detail .head img {
+  height: 0.2rem;
+  position: absolute;
+  left: 0.16rem;
+  top: 0.1rem;
+}
+.detail section {
+  border-radius: 0.04rem;
+  background: #ffffff;
+  margin: 0.11rem;
+  font-size: 0.12rem;
+  box-shadow: 0px 2px 12px #cccccc;
+}
+.detail section .tit {
+  border-bottom: 1px solid #f1f1f1;
+  font-size: 0.17rem;
+  padding: 0.12rem;
+  color: #666666;
+}
+.detail section .data {
+  border-bottom: 1px solid #f1f1f1;
+  padding: 0.12rem;
+}
+.detail section .data img {
+  position: relative;
+  top: -0.15em;
+}
+.detail section.one .pic img {
+  width: 100%;
+  border: 1px solid #eeeeee;
+}
+.detail section.one .tit {
+  font-weight: 900;
+  line-height: 0.28rem;
+}
+.detail section.one .tit img {
+  width: 0.595rem;
+}
+.detail section.one b {
+  font-weight: 600;
+  margin-right: 0.05rem;
+}
+.detail section.one .imgtext {
+  line-height: 0.22rem;
+}
+.detail section.one .imgtext img {
+  width: 0.15rem;
+}
+.detail section.one .imgtext.mobile b {
+  font-size: 0.15rem;
+  color: #df4b24;
+}
+.detail section.one .explain {
+  color: #666666;
+  line-height: 0.3rem;
+  position: relative;
+}
+.detail section.one .explain span.red {
+  color: #df4b24;
+}
+.detail section.one .card {
+  text-align: center;
+  padding: 0.12rem;
+  line-height: 0.34rem;
+  font-weight: 900;
+}
+.detail section.one .card p {
+  width: 1.28rem;
+  text-align: center;
+  overflow: hidden;
+  background: #cd2525;
+  border-radius: 0.04rem;
+}
+.detail section.one .card p.mid {
+  margin: 0 0.04rem;
+}
+.detail section.one .card p a {
+  color: #ffffff;
+}
+.detail section.one .card p a span {
+  font-size: 0.14rem;
+  position: relative;
+  top: 0.1em;
+}
+.detail section.one .bdsharebuttonbox {
+  display: none;
+  border-top: 1px solid #f1f1f1;
+  padding: 0 0.5em;
+}
+.detail section.one .bdsharebuttonbox a {
+  font-size: 11px;
+  text-indent: 1em;
+  padding-left: 5px;
+  margin-right: 2px;
+  background: url(../img/icons_1_16.png) no-repeat;
+}
+.detail section.one .bdsharebuttonbox a.bds_more {
+  background-position: 0 0;
+}
+.detail section.one .bdsharebuttonbox a.bds_qzone {
+  background-position: 0 -52px;
+}
+.detail section.one .bdsharebuttonbox a.bds_tsina {
+  background-position: 0 -104px;
+}
+.detail section.one .bdsharebuttonbox a.bds_sqq {
+  background-position: 0 -2652px;
+}
+.detail section.one .bdsharebuttonbox a.bds_tqq {
+  background-position: 0 -260px;
+}
+.detail section.level .tit {
+  font-weight: 900;
+  cursor: pointer;
+  position: relative;
+}
+.detail section.level .tit img {
+  width: 0.16rem;
+  position: relative;
+  top: -0.02rem;
+}
+.detail section.level .tit .viewer {
+  position: absolute;
+  right: 0.1rem;
+  font-size: 0.13rem;
+  top: 0.15rem;
+  font-weight: 100;
+}
+.detail section.level .tit .viewer span {
+  color: #df4b24;
+}
+.detail section.level dl.dtail dt {
+  border-bottom: 1px solid #f1f1f1;
+  padding: 0.13rem 0.12rem;
+}
+.detail section.level dl.dtail dt .heads {
+  border-radius: 50%;
+}
+.detail section.level dl.dtail dt .heads img {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+}
+.detail section.level dl.dtail dt .txt {
+  width: 2.18rem;
+}
+.detail section.level dl.dtail dt .txt .up {
+  font-weight: 900;
+  font-size: 0.125rem;
+  position: relative;
+  line-height: 0.19rem;
+}
+.detail section.level dl.dtail dt .txt .up span {
+  position: absolute;
+  right: 0%;
+  color: #888888;
+  font-size: 0.1rem;
+}
+.detail section.level dl.dtail dt .txt .down {
+  font-weight: 500;
+  font-size: 0.13rem;
+  line-height: 0.16rem;
+}
+.detail section.level .views {
+  color: #cd2525;
+  font-size: 0.12rem;
+  line-height: 0.31rem;
+  padding: 0 0.12rem;
+  cursor: pointer;
+}
+.detail section.two .data {
+  line-height: 0.27rem;
+}
+.detail section.two .data .from {
+  margin-top: 0.1rem;
+  font-weight: 900;
+}
+.detail section.two .data .from img {
+  height: 0.15rem;
+  margin-right: 0.02rem;
+}
+.detail section.two .data .from img.two {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+.detail section.two .data .company {
+  color: #666666;
+  font-size: 0.11rem;
+}
+.detail section.two dl.card {
+  color: #555555;
+  padding: 0.12rem;
+  font-size: 0.1rem;
+  line-height: 0.25rem;
+}
+.detail section.two dl.card dt {
+  border-bottom: 1px solid #f1f1f1;
+  line-height: 0.25rem;
+}
+.detail section.two dl.card span {
+  color: #df4b24;
+}
+.detail section.three .contents {
+  padding: 0.1rem;
+  font-size: 0.15rem;
+}
+.detail section.three .contents img {
+  width: 100%;
+}
+.detail section.three .contents p {
+  line-height: 0.28rem;
+}
+.detail section.four .qrcode img {
+  width: 2.21rem;
+  margin: 0.19rem 0.39rem;
+}
+.detail section.four .qrcode .text {
+  font-size: 0.12rem;
+  padding-bottom: 0.2rem;
+  text-align: center;
+  font-weight: 500;
+}
+.detail .foot-tserver {
+  margin-top: 0.2rem;
+  margin-bottom: 0.6rem;
+}
+html {
+  height: 100%;
+  font-size: 100px;
+}
+body,
+dl,
+p,
+table {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+.cb {
+  clear: both;
+}
+.csr {
+  cursor: pointer;
+}
+.flt {
+  float: left;
+}
+.frt {
+  float: right;
+}
+input {
+  outline: none;
+}
+.br {
+  border-radius: 50%;
+}
+.hide {
+  display: none;
+}
+body {
+  font-size: 0.14rem;
+}
+img {
+  vertical-align: middle;
+  border: none;
+}
+input,
+textarea {
+  font-size: 0.14rem;
+}
+.load {
+  line-height: 0.18rem;
+  text-align: center;
+  font-size: 0.14rem;
+}
+content .head {
+  background: #1d77c7;
+  color: #ffffff;
+  line-height: 0.38rem;
+  height: 0.38rem;
+  text-align: center;
+}
+content .head .plt {
+  position: absolute;
+  left: 0.1rem;
+}
+content .head .plt img.area {
+  height: 0.15rem;
+  margin-right: 0.04rem;
+  position: relative;
+  top: -0.02rem;
+}
+content .head img.logo {
+  height: 100%;
+  position: relative;
+  top: -0.02rem;
+}
+content .topImg img {
+  width: 100%;
+}
+content dl.where {
+  background: #ffffff;
+  line-height: 0.34rem;
+  height: 0.34rem;
+  border-top: 1px solid #dddddd;
+  color: #666666;
+  border-bottom: 1px solid #dddddd;
+}
+content dl.where dt {
+  width: 33%;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+}
+content dl.where dt img {
+  height: 0.16rem;
+}
+content dl.card {
+  padding-bottom: 0.7rem;
+}
+content dl.card dt {
+  height: 0.98rem;
+  border-bottom: 1px solid #dddddd;
+  background: #ffffff;
+  cursor: pointer;
+}
+content dl.card dt .img {
+  width: 1.26rem;
+  position: relative;
+  float: left;
+}
+content dl.card dt .img img.logo {
+  width: 1.1rem;
+  margin: 0.09rem;
+}
+content dl.card dt .img img.vip {
+  width: 0.4rem;
+  position: absolute;
+  left: 0;
+  top: 0%;
+}
+content dl.card dt .img .vip {
+  width: 0.4rem;
+  position: absolute;
+  left: 0;
+  top: 0%;
+}
+content dl.card dt .text {
+  width: 1.91rem;
+  float: left;
+}
+content dl.card dt .text .tit {
+  font-weight: 900;
+  font-size: 0.14rem;
+  z-index: 0.5em;
+  color: #333333;
+  line-height: 0.2rem;
+  height: 0.4rem;
+  overflow: hidden;
+  margin-top: 0.04rem;
+}
+content dl.card dt .text .phone {
+  line-height: 0.2rem;
+  font-size: 0.12rem;
+  position: relative;
+}
+content dl.card dt .text .phone span {
+  color: #df4b24;
+  font-weight: 900;
+}
+content dl.card dt .text .phone span.star {
+  position: absolute;
+  right: 0.06rem;
+}
+content dl.card dt .text .phone span.star img {
+  width: 0.12rem;
+  margin-right: 0.03rem;
+}
+content dl.card dt .text .phone span.viewNum {
+  color: #df4b24;
+  font-weight: 600;
+}
+content dl.card dt .text .phone span.view {
+  color: #777777;
+  font-size: 0.11rem;
+  position: relative;
+  top: -0.01rem;
+  font-weight: 100;
+}
+content dl.card dt .text .area {
+  color: #656565;
+  line-height: 0.23rem;
+  height: 0.23rem;
+  overflow: hidden;
+  font-size: 0.13rem;
+}
+content dl.goods {
+  padding-bottom: 0.7rem;
+}
+content dl.goods .moreText {
+  line-height: 0.28rem;
+  text-align: center;
+  position: relative;
+  color: #666666;
+  border-bottom: 1px solid #e5e5e5;
+}
+content dl.goods .moreText:before {
+  content: '';
+  position: absolute;
+  left: 0.2rem;
+  top: 0.15rem;
+  width: 0.65rem;
+  height: 0.005rem;
+  background: #dddddd;
+}
+content dl.goods .moreText:after {
+  content: '';
+  position: absolute;
+  right: 0.2rem;
+  top: 0.15rem;
+  width: 0.65rem;
+  height: 0.005rem;
+  background: #dddddd;
+}
+content dl.goods dt {
+  padding: 0.06rem 0.1rem;
+  border-bottom: 1px solid #e5e5e5;
+  height: 0.81rem;
+}
+content dl.goods dt .logo {
+  width: 0.61rem;
+  margin-right: 0.08rem;
+  float: left;
+}
+content dl.goods dt .logo img.headimg {
+  width: 0.58rem;
+  height: 0.58rem;
+  border-radius: 50%;
+  margin-bottom: 0.04rem;
+}
+content dl.goods dt .logo img.vip {
+  width: 100%;
+}
+content dl.goods dt .logo span {
+  cursor: pointer;
+}
+content dl.goods dt .text {
+  width: 2.21rem;
+  float: left;
+}
+content dl.goods dt .text p {
+  line-height: 0.19rem;
+  font-size: 0.1rem;
+  color: #888888;
+  height: 0.19rem;
+  overflow: hidden;
+}
+content dl.goods dt .text p span {
+  cursor: pointer;
+}
+content dl.goods dt .text p.tit {
+  line-height: 0.17rem;
+  font-size: 0.14rem;
+  font-weight: 900;
+  color: #000000;
+  letter-spacing: 0.005rem;
+}
+content dl.goods dt .text p.tit img {
+  width: 0.12rem;
+  position: relative;
+  top: -0.02rem;
+}
+content dl.goods dt .text p.starting {
+  margin-top: 0.01rem;
+}
+content dl.goods dt .text p.destination {
+  margin-top: 0.02rem;
+  margin-bottom: 0.02rem;
+}
+content dl.goods dt .text p.remark {
+  width: 1.9rem;
+  height: 0.38rem;
+  overflow: hidden;
+  font-size: 0.14rem;
+}
+content dl.goods dt .text p img {
+  width: 0.15rem;
+}
+content dl.goods dt .contact {
+  width: 0.64rem;
+  text-align: center;
+  font-size: 0.09rem;
+  line-height: 0.25rem;
+  position: absolute;
+  right: 0%;
+}
+content dl.goods dt .contact img {
+  width: 0.36rem;
+  cursor: pointer;
+}
+footer {
+  position: fixed;
+  width: 100%;
+  line-height: 0.2525rem;
+  bottom: 0;
+  text-align: center;
+  background: #ffffff;
+  height: 0.505rem;
+}
+footer .line {
+  position: relative;
+  height: 0.055rem;
+}
+footer .line img {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 100%;
+}
+footer dl {
+  font-size: 0.1rem;
+}
+footer dl dt {
+  float: left;
+  width: 20%;
+  position: relative;
+  cursor: pointer;
+}
+footer dl dt div {
+  height: 0.2525rem;
+}
+footer dl dt div img {
+  margin-top: 0.04rem;
+}
+footer dl dt div.txt {
+  line-height: 0.21rem;
+  color: #999999;
+}
+footer dl dt.send:before {
+  content: '';
+  position: absolute;
+  left: 0.1rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: #ffffff;
+  top: -0.045rem;
+}
+footer dl dt.send img {
+  width: 0.38rem;
+  height: 0.38rem;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+}
+footer dl dt span {
+  clear: left;
+}
+footer dl dt .icon {
+  height: 0.22rem;
+  position: relative;
+  top: 0.02rem;
+}
+footer dl dt .cut {
+  position: absolute;
+  height: 0.32rem;
+  top: 0.065rem;
+}
+footer dl dt .cut.l {
+  left: 0;
+}
+footer dl dt .cut.r {
+  right: 0%;
+}
+footer dl dt img.open {
+  display: none;
+}
+footer dl dt img.close {
+  display: inline;
+}
+footer dl dt.active img.open {
+  display: inline;
+}
+footer dl dt.active img.close {
+  display: none;
+}
+footer .consult {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 0.49rem;
+  background: #1d77c7;
+  font-size: 0.14rem;
+  z-index: 1;
+  text-align: center;
+}
+footer .consult a {
+  color: #ffffff;
+  display: block;
+  width: 50%;
+  box-sizing: border-box;
+  line-height: 0.24rem;
+  margin-top: 0.13rem;
+  float: left;
+}
+footer .consult a:nth-child(1) {
+  border-right: 1px solid #cccccc;
+}
+footer .consult a img {
+  height: 0.2rem;
+  position: relative;
+  top: -0.02rem;
+}
+.jui-box {
+  display: none;
+}
+.jui-box.active {
+  display: block;
+}
