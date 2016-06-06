@@ -1,0 +1,26 @@
+# vim files
+*.swp
+*~
+
+# python compile files
+*.pyc
+
+# running files
+*.out
+
+# backup files
+*.bak
+
+# logs
+*.log
+*.logs
+
+# sqlite3
+*.sqlite3
+
+# ide meta
+.settings
+.idea
+.project
+.pydevproject
+*.bat
